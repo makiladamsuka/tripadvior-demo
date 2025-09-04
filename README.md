@@ -2,4 +2,6 @@
 Reconstructing Tripadvisor.com frontend
 
 
-[try this][(https://makiladamsuka.github.io/tripadvior-demo/)]
+[(https://makiladamsuka.github.io/tripadvior-demo/)]
+
+There will be two web pages for "things to do" and "restaurants".
