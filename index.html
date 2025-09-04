@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+  <head>
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>TripAdvisor</title>
+    <link rel="icon" href="images/title.svg" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+        <a href="index.html"><img src="images/logo.svg" alt="Logo" class="image_logo"></a>
+        <nav>
+            <ul class="nav__links">
+                <li><a href=""><button class="button-list">Discover</button></a></li>
+                <li><a href=""><button class="button-list">Trips</button</a></li>
+                <li><a href=""><button class="button-list">Review</button></a></li>
+                <li><a href=""><button class="button-list">More</button></a></li>
+            </ul>
+        </nav>
+        <a href="#order"><button class="button-sign">Sign in</button></a>
+    </header>
+
+    <div class="navbar">
+        <img src="images/logo.svg" alt="Logo" class="image_logo">
+        <div class="nav-bar-container">
+            <input type="text" id="searchInput" class="nav-search" placeholder="   Search ..">
+        </div>
+        <nav>            
+            <ul class="nav__links">
+                <li><a href=""><button class="button-list">Discover</button></a></li>
+                <li><a href=""><button class="button-list">Trips</button</a></li>
+                <li><a href=""><button class="button-list">Review</button></a></li>
+                <li><a href=""><button class="button-list">More</button></a></li>
+            </ul>
+        </nav>
+        <a href="#"><button class="button-sign">Sign in</button></a>
+
+        <nav>            
+            <ul class="nav__links">
+                <li><a class= "underline" href="">Hotels</a></li>
+                <li><a class= "underline" href="thingstodo.html">Things to Do</button</a></li>
+                <li><a class= "underline" href="restaurants.html">Restaurants</button></a></li>
+                <li><a class= "underline" href="">Flights</button></a></li>
+                <li><a class= "underline" href="">Cruises</button></a></li>
+                <li><a class= "underline" href="">Rental Cars</button></a></li>
+                <li><a class= "underline" href="">Forums</button></a></li>
+            </ul>
+        </nav>
+    </div>
+    
+
+    <div class="container" style="padding-top: 70px;">
+        <div class="row">
+            <div class="main-div">
+                <div class="main-text" id="message"></div>
+            </div>            
+        </div>
+        <div class="row">
+            <nav class="main-div">
+                <ul class="nav__links">
+                    <li><a class= "underline active" id="1" href="">🏠Search All</a></li>
+                    <li><a class= "underline"  id="2" href="#">🛌Hotels</a></li>
+                    <li><a class= "underline"  id="3" href="#">📸Things to Do</a></li>
+                    <li><a class= "underline" id="4" href="#">🍽️Resturants</a></li>
+                    <li><a class= "underline" id="5" href="#">✈️Flights</a></li>
+                    <li><a class= "underline" id="6" href="#">🏘️Vacation Rentals</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="row">
+            <div class="container">
+                <div class="search-bar-container">
+                <input type="text" id="searchBar" class="search-input" placeholder="Places to go, things to do, hotels..">
+                <button class="search-button">Search</button>
+                </div>
+            </div>
+        </div>
+          
+
+        
+    </div>
+    <div class="row">
+        <img class="mySlides" src="images/banner1.jpg" alt="banner1">
+        <img class="mySlides" src="images/banner2.jpg" alt="banner2">
+        <img class="mySlides" src="images/banner3.jpg" alt="banner3">
+
+        <div class="overlay-text">
+            Plan your kind of trip <br>with AI trip builder. <br>
+           
+        </div>
+
+    </div>
+
+
+    <div class="container" style="zoom: 110%;">
+        <div class="slider-container">
+            <p>Explore the world’s most stunning seasides</p>
+            <h1>2025’s Travelers’ Choice Awards Best of the Best Beaches</h1>
+            <div class="slider-wrapper" id="sliderWrapper">
+                <div class="slide">
+                    <img src="images/world.jpg" alt="World">
+                    <div class="slide-text">World</div>
+                </div>
+                <div class="slide">
+                    <img src="images/europe.jpg" alt="Europe">
+                    <div class="slide-text">Europe</div>
+                </div>
+                <div class="slide">
+                    <img src="images/asia.jpg" alt="Asia">
+                    <div class="slide-text">Asia</div>
+                </div>
+                <div class="slide">
+                    <img src="images/southpacifoc.jpg" alt="South Pacific">
+                    <div class="slide-text">South Pacific</div>
+                </div>
+                <div class="slide">
+                    <img src="images/caribbean.jpg" alt="Another World">
+                    <div class="slide-text">Carribean</div>
+                </div>
+                
+            </div>
+            <div class="navigation">
+    
+                <button class="nav-button prev" onclick="moveSlider(-1)">&#9664;</button>
+                <button class="nav-button next" onclick="moveSlider(1)">&#9654;</button>
+            </div>
+        </div>
+    </div>
+
+<div style="background-color: antiquewhite; border-radius: 10px;">
+    <div class="banner" >
+        <div class="left-content">
+            <div class="logo-badge">
+                <img src="images/badge.svg" alt="TripAdvisor Logo Badge">
+            </div>
+            <h1 class="title">Travelers' Choice <br> Awards Best of<br>the Best</h1>
+            <p class="description">Among our top 1% of places, stays, eats, and experiences—decided by<br>you.</p>
+            <button class="button-sign">See the winners</button>
+        </div>
+        <div class="right-image">
+            <img src="images/tc_cards_2025.png" alt="Travel Scene">
+        </div>
+    </div>
+</div>
+    
+
+
+
+    <footer class="footer">
+        <div class="footer-links">
+            <div>
+                <strong>About TripAdvisor</strong>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Resources and Policies</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Investor Relations</a></li>
+                    <li><a href="#">Trust & Safety</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Accessibility Statement</a></li>
+                    <li><a href="#">Bug Bounty Program</a></li>
+                </ul>
+            </div>
+            <div>
+                <strong>Explore</strong>
+                <ul>
+                    <li><a href="#">Write a review</a></li>
+                    <li><a href="#">Add a place</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Travelers' Choice</a></li>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Travel Stories</a></li>
+                </ul>
+            </div>
+            <div>
+                <strong>Do Business With Us</strong>
+                <ul>
+                    <li><a href="#">Owners</a></li>
+                    <li><a href="#">Business Advantage</a></li>
+                    <li><a href="#">Sponsored Placements</a></li>
+                    <li><a href="#">Advertise with Us</a></li>
+                    <li><a href="#">Access our Content API</a></li>
+                    <li><a href="#">Become an Affiliate</a></li>
+                </ul>
+                <strong style="margin-top: 20px;">Get The App</strong>
+                <ul>
+                    <li><a href="#">iPhone App</a></li>
+                    <li><a href="#">Android App</a></li>
+                </ul>
+            </div>
+            <div style="padding-left: 100px;">
+                <strong>TripAdvisor Sites</strong>
+                <ul>
+                    <li><a href="#">Book the best restaurants with TheFork</a></li>
+                    <li><a href="#">Book tours and attraction tickets on Viator</a></li>
+                    <li><a href="#">Read cruise reviews on Cruise Critic</a></li>
+                    <li><a href="#">Get airline seating charts on SeatGuru</a></li>
+                    <li><a href="#">Search for holiday rentals on Holiday Lettings</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-bottom-left">
+                <img src="images/logo.svg" alt="logo">
+            </div>
+            <p class="copyright">&copy; 2025 Your Website Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+        
+
+    <script src="logic.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
